@@ -1,0 +1,316 @@
+/* tieu de tren anh */
+
+.banner-box {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+  font-weight: 700;
+  color: #a5aaae;
+}
+.job {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* navbar */
+#nav-bar {
+  height: 10rem;
+}
+
+.nav {
+  padding: 32px;
+
+  justify-content: center;
+}
+
+.nav-img {
+  width: 200px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  left: 10%;
+  top: -25%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.123);
+}
+
+/*ABOUT */
+
+#target {
+  justify-self: right;
+  background-color: #f1f1f1;
+
+  padding: 60px;
+}
+
+#personal-info {
+  background-color: #e4e4e4;
+  padding: 60px;
+}
+
+.about-title {
+  margin-bottom: 36px;
+}
+
+.list-element {
+  font-weight: 500;
+}
+
+.hide {
+  display: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+#about input {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+/* jobinfo */
+#job-info .container {
+  box-sizing: border-box;
+  row-gap: 50px;
+  column-gap: 30px;
+  margin: 60px auto;
+  padding: 0 60px;
+  justify-content: center;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 30px;
+}
+
+.mom {
+  border: 2px solid rgba(199, 199, 199, 0.615);
+  padding: 40px;
+}
+
+.mom:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.job-info-content {
+  /* display: none; */
+}
+
+button {
+  background-color: rgb(255, 187, 0) !important;
+  font-size: 1.2rem;
+}
+
+.mom h2 {
+  margin-bottom: 10px;
+}
+.job-icon-box {
+  color: #303030;
+  font-size: 40px;
+}
+
+.now {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1px 6px;
+
+  border-radius: 5px;
+}
+
+.time {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#job-info ul {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+#job-info li::before {
+  content: "- ";
+}
+
+.fav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+  justify-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.iconfav-box {
+  height: 70px;
+  width: 70px;
+  border: 3px solid #238cce;
+  border-radius: 50%;
+  align-content: center;
+  /* padding: 10px; */
+}
+
+.iconfav {
+  color: #6b6b6b;
+  font-size: 30px;
+  padding-left: 12.5px;
+}
+
+.ic-hotairballoon,
+.ic-strategy {
+  padding-left: 20px;
+}
+
+.level {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.blue {
+  background-color: blue;
+  width: 75px;
+  height: 5px;
+  border-radius: 50px;
+}
+
+.grey {
+  background-color: rgba(191, 191, 191, 0.677);
+  width: 75px;
+  height: 5px;
+}
+
+/* chungchigiaithuong */
+#certificate {
+  margin-bottom: 60px;
+}
+
+#certificate .container {
+  background-color: #f1f1f1;
+  padding: 6rem 8rem;
+}
+
+.certificate-title {
+  margin-bottom: 30px;
+}
+
+#certificate ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 10px;
+  line-height: 1.25;
+  font-size: 15px;
+  color: rgb(102, 101, 101);
+}
+#certificate li::before {
+  content: "- ";
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  gap: 2rem;
+  padding: 10px;
+}
+
+.box img {
+  width: 100%;
+}
+
+#boxa,
+#boxb {
+  border-bottom: 2px solid #d6c08d;
+}
+
+#boxb {
+  border-left: 2px solid #d6c08d;
+}
+
+#boxc {
+  margin-top: 30px;
+}
+
+/* project */
+#project {
+  margin-bottom: 6rem;
+  /* justify-content: center; */
+}
+
+#project .grid-3-columns {
+  gap: 6.4rem;
+  justify-content: center;
+}
+
+.project-title {
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-name,
+.project-tag,
+.detail {
+  padding: 1.6rem 1.2rem;
+  border: 1px solid #6b6b6b66;
+}
+
+.project-name {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.project-tag {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.project-tag i {
+  color: #6b6b6b;
+}
+
+.year {
+  color: white;
+  background-color: #238cce;
+  border-radius: 30px;
+  padding: 1rem 1.5rem;
+}
+
+.tag {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* footer */
+#footer .container {
+  background-color: #f1f1f1;
+}
+
+#footer li {
+  display: inline-block;
+  padding: 30px;
+}

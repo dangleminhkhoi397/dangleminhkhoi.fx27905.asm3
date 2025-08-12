@@ -1,0 +1,189 @@
+/* tablet screen below 1200px */
+
+@media (max-width: 1199.5px) {
+  * {
+    font-size: 1.3rem;
+  }
+
+  .nav-img {
+    left: 10%;
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .name {
+    font-size: 3.2rem;
+  }
+
+  #nav-bar {
+    height: 7rem;
+  }
+
+  .nav {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.4rem !important;
+  }
+
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  #target,
+  #personal-info {
+    padding: 4rem 3rem;
+  }
+
+  .about-title {
+    margin-bottom: 2.6rem;
+  }
+
+  #job-info .container {
+    grid-template-columns: repeat(2, 45%);
+
+    row-gap: 2.5rem;
+    column-gap: 2.4rem;
+    padding: 0 3rem;
+  }
+
+  .iconfav {
+    font-size: 2rem;
+    padding-left: 1.2rem;
+  }
+
+  .ic-hotairballoon,
+  .ic-strategy {
+    padding-left: 1.6rem;
+  }
+
+  .iconfav-box {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+
+  #certificate {
+    margin-bottom: 3rem;
+  }
+
+  #certificate .container {
+    padding: 4rem 6rem;
+  }
+
+  .box {
+    grid-template-columns: 1fr;
+  }
+
+  #project {
+    margin-bottom: 3rem;
+  }
+
+  #project .grid-3-columns {
+    gap: 4rem;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+  }
+
+  .project-title {
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+  }
+
+  .detail {
+    gap: 1rem;
+  }
+
+  .short-detail-text {
+    padding-bottom: 0;
+  }
+
+  .tool-detail {
+    padding-bottom: 4rem;
+  }
+}
+
+/* tablet screen below 992px */
+@media (max-width: 991.5px) {
+  * {
+    font-size: 1rem;
+    line-height: 2.2;
+  }
+
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .nav-img {
+    display: none;
+  }
+
+  .about-title {
+    margin-bottom: 2rem;
+  }
+
+  #job-info .container {
+    row-gap: 2rem;
+    column-gap: 2rem;
+    padding: 0 3rem;
+    margin: 3rem auto;
+  }
+
+  .mom {
+    padding: 2rem;
+  }
+
+  .job-icon-box {
+    font-size: 20px;
+  }
+
+  .iconfav-box {
+    border: 2px solid #00cccc;
+    height: 3.8rem;
+    width: 3.8rem;
+  }
+
+  .iconfav {
+    font-size: 1.2rem;
+    padding-left: 0.9rem;
+  }
+
+  .ic-hotairballoon,
+  .ic-strategy {
+    padding-left: 1.1rem;
+  }
+
+  .level {
+    gap: 0.9rem;
+  }
+
+  .blue,
+  .grey {
+    width: 4.5rem;
+  }
+
+  #certificate .container {
+    padding: 4rem;
+  }
+
+  .certificate-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .box {
+    padding: 2rem;
+  }
+
+  #project .grid-3-columns {
+    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .project-title {
+    margin-left: 3rem;
+  }
+
+  .tool-detail:last-child {
+    padding-bottom: 3.3rem;
+  }
+}

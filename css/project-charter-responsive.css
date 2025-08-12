@@ -1,0 +1,30 @@
+/* smail desktop */
+
+@media (max-width: 1399.5px) {
+  * {
+    font-size: 1.4rem;
+  }
+}
+
+/* tablet */
+@media (max-width: 1199.5px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+  .icon {
+    font-size: 3.4rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .scopes .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+}

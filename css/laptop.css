@@ -1,0 +1,26 @@
+@media (max-width: 1399.5px) {
+  .nav-img {
+    left: 5%;
+  }
+
+  .mom {
+    padding: 20px;
+  }
+
+  .iconfav {
+    padding-left: 1.2rem;
+  }
+
+  .ic-hotairballoon,
+  .ic-strategy {
+    padding-left: 2rem;
+  }
+
+  .fav {
+    column-gap: 7px;
+  }
+
+  .short-detail-text {
+    padding-bottom: 2.8rem;
+  }
+}

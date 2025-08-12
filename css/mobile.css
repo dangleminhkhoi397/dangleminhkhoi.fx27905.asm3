@@ -1,0 +1,62 @@
+/* BELOW 768PX */
+@media (max-width: 767.5px) {
+  .name {
+    font-size: 2.4rem;
+  }
+
+  #nav-bar {
+    height: fit-content;
+  }
+
+  #nav-bar .container,
+  .grid,
+  #job-info .container,
+  #project .grid {
+    grid-template-columns: 70%;
+    justify-content: center;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  #target,
+  #personal-info {
+    padding: 3rem 5rem;
+  }
+
+  .list-info {
+    padding: 0;
+  }
+
+  #boxb {
+    border-left: none;
+  }
+}
+
+/* BELOW 368PX */
+@media (max-width: 367.5px) {
+  .fav {
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .iconfav-box {
+    border: none;
+  }
+
+  .iconfav-box:nth-child(3) {
+    grid-row: 3/4;
+  }
+
+  .iconfav-box:nth-child(4) {
+    grid-row: 3/4;
+  }
+
+  .iconfav {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    color: #238cce;
+  }
+}
